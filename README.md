@@ -1,2 +1,2 @@
 # emp-management-system
-link
+It is a Java SpringBoot based project
