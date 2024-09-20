@@ -1,6 +1,8 @@
-package com.example.em_project;
+package com.example.em_project.service;
 
 import java.util.List;
+
+import com.example.em_project.model.Employee;
 
 
 public interface EmpService {

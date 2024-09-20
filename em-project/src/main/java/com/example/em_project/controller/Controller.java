@@ -1,4 +1,4 @@
-package com.example.em_project;
+package com.example.em_project.controller;
 
 import java.util.List;
 
@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.em_project.service.EmpService;
+import com.example.em_project.model.Employee;
 
 @RestController
 @CrossOrigin("http://localhost:3000/")

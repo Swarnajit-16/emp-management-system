@@ -1,4 +1,4 @@
-package com.example.em_project;
+package com.example.em_project.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,10 @@ import java.util.List;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.em_project.entity.EmployeeEntity;
+import com.example.em_project.model.Employee;
+import com.example.em_project.repository.EmployeeRepository;
 
 @Service
 public class EmpServiceImple implements EmpService{
@@ -65,5 +69,7 @@ public class EmpServiceImple implements EmpService{
         BeanUtils.copyProperties(employeeEntity, employee);
         return employee;
     }
+
+    
 
 }
